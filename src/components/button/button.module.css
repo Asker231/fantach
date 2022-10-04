@@ -1,0 +1,23 @@
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    justify-content: space-between;
+    max-width: 200px;
+    
+}
+.btn>a{
+    background-color: aqua;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.btn>a:hover{
+    max-width: 100px;
+    height: 100px;
+}
+
+.btn>span:nth-of-type(1) {transform: rotate(310deg);}
+.btn>span:nth-of-type(2) {transform: rotate(315deg);}

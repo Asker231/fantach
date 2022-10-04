@@ -1,0 +1,8 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    padding: 0px 0px;
+    overflow: hidden;
+}

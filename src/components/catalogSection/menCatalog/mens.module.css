@@ -1,0 +1,14 @@
+.mens{
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+@media (max-width:426px) {
+    .mens{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        padding: 20px;
+    }
+ }
